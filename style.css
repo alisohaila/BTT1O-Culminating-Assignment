@@ -1,0 +1,207 @@
+/*Base settings*/
+
+*{
+    font-family: century;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+
+
+h2{
+    color: #1fa3cf;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-bottom: 100px;
+    font-family:"playfair display", serif;
+}
+
+hr{
+    margin: 8px 1in;
+}
+
+/*Navigation-bar section*/
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fa3cf;
+    position: sticky;
+    top: 0;
+    margin-bottom: 200px;
+    gap: 300px;
+}
+
+nav h1{
+    color: white;
+    font-size: 30px;
+    margin-bottom: -3px;
+    margin-top: -3px;
+    margin-left: -500px;
+}
+
+nav img{
+    height: 40px;
+    margin-right: 15px;
+    margin-bottom: -5px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+nav ul li{
+    font-family: century;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5 ease;
+}
+
+nav ul a:hover{
+    background-color: white;
+    color: #34b7eb;
+    transition: .3s all ease-in-out;
+    box-shadow: 0 0 10px white;
+}
+
+/*homepage/About Us section*/
+
+main{
+    height: 847px;
+    text-align: center;
+}
+
+main h2{
+    margin: 20px;
+    margin-top: 200px;
+}
+
+main p{
+    margin: 50px 500px;
+    font-family: "Arbutus Slab", serif;
+    font-size: large;
+}
+main img{
+    background-image: url("company-img.jpg") no-repeat cover;
+    height: 300px;
+    margin: 80px;
+}
+
+/*Services section*/
+
+#aws, #azure, #gcp{
+    height: 900px;
+}
+
+#aws p, #azure p, #gcp p{
+    text-align: center;
+    color: #1fa3cf;
+    font-weight: bold;
+    padding: 10px;
+    margin: 30px;
+    font-size: 20px;
+    font-family:'Helvetica', sans-serif;
+}
+#aws ul, #azure ul, #gcp ul{
+    list-style: none;
+    padding: 5px; 
+}
+
+#aws ul li, #azure ul li, #gcp ul li{
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+}
+
+#aws ul li a, #azure ul li a, #gcp ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#aws ul li a:hover, #azure ul li a:hover, #gcp ul li a:hover{
+    color: #1fa3cf;
+}
+
+/*Footer section*/
+
+#footer{
+    padding: 32px 25px;
+    height: 540px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    width: auto;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+}
+
+footer h2{
+    margin-bottom: 65px;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.footer-container{
+    display: flex;
+    background-color: #1fa3cf;
+    padding: 10px;
+    justify-content: center;
+    margin-left: -25px;
+    margin-right: -25px;
+    height: 400px;
+}
+
+.footer-container div{
+    padding: 0px;
+    margin: 50px;
+    margin-top: 110px;
+    text-align: center;
+
+}
+.footer-container h4{
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+    color: white;
+}
+
+.footer-container ul{
+    list-style: none;
+    display: inline;
+}
+
+.footer-container ul li{
+    font-family: century;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-container ul li a {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+    transition: all .5 ease;
+    font-size: 15px;
+    font-weight: thin;
+}
+
+.footer-container ul li a:hover {
+    color: #1fa3cf;
+    background-color: white;
+    transition: .2s all ease-in-out;
+    box-shadow: 0 0 10px white;
+}
