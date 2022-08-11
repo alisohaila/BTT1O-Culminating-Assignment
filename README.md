@@ -1,4 +1,4 @@
-# school-project
+# school-projec
 
 Hello there! 
 
