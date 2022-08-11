@@ -1,4 +1,4 @@
-# school-projec
+# Culminating Assignment 
 
 Hello there! 
 
